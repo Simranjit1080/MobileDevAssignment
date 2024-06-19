@@ -111,6 +111,7 @@ const styles = StyleSheet.create({
     fontWeight: '400',
   },
   highlight: {
+    fontFamily: 'IBMPlexMono-Regular',
     fontWeight: '700',
   },
 });

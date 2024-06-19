@@ -12,9 +12,23 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		212F076C9DAA458B827DEC27 /* IBMPlexMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9EF9D45466F4372A5503850 /* IBMPlexMono-Thin.ttf */; };
+		2B66BB4B0CA64EF291447ED6 /* IBMPlexMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC712A27C24447878FFEC973 /* IBMPlexMono-Italic.ttf */; };
+		2D6F25C0F57D4296A747418F /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8242834E2F254BBE8D2FC33D /* IBMPlexMono-SemiBold.ttf */; };
+		3318146706F041298DB87642 /* IBMPlexMono-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EED98F0132A4C74AE6EDF25 /* IBMPlexMono-ExtraLightItalic.ttf */; };
 		3FB310C4EBB0BEFAEC86D2D7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A7959E4D91DAE8D4CC2698FC /* PrivacyInfo.xcprivacy */; };
+		5F7DD2276E1843B78588E2C8 /* IBMPlexMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63D97680BE3D4A89A60D75F8 /* IBMPlexMono-BoldItalic.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-MobileDevAssignment-MobileDevAssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MobileDevAssignment-MobileDevAssignmentTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8FABBBD97C50409BB65E2632 /* IBMPlexMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A26C7AE1345743948A5E80FE /* IBMPlexMono-Bold.ttf */; };
+		A0A54CE707114D0BAE4E4E18 /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB393668363743CB980EB83B /* IBMPlexMono-Light.ttf */; };
+		A1E7D660D4164CC680099D9A /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116DB8C587AC472EAAFAB1F7 /* IBMPlexMono-Regular.ttf */; };
+		A6FF38A7498C46AB93103978 /* IBMPlexMono-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972C8A89FFC348D9AFF41E4D /* IBMPlexMono-SemiBoldItalic.ttf */; };
+		AF1C071B0378423F953B7062 /* IBMPlexMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70C1EED9F24F487BA7BA386F /* IBMPlexMono-ExtraLight.ttf */; };
+		BAD3C73666A84429BCFFBC35 /* IBMPlexMono-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 072E142B4CEE45A4895AA7BA /* IBMPlexMono-LightItalic.ttf */; };
+		D1282441AB2445FCBC0259A0 /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DBE93AA6D904C639B855CC4 /* IBMPlexMono-Medium.ttf */; };
+		EA72EF93D6DD4699B6F4B969 /* IBMPlexMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED7984228B244C1192CD702F /* IBMPlexMono-ThinItalic.ttf */; };
+		FFB05B41E84E4EA68D92BF2D /* IBMPlexMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC753BFE628A4B13B656D44C /* IBMPlexMono-MediumItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +45,8 @@
 		00E356EE1AD99517003FC87E /* MobileDevAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileDevAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MobileDevAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileDevAssignmentTests.m; sourceTree = "<group>"; };
+		072E142B4CEE45A4895AA7BA /* IBMPlexMono-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-LightItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-LightItalic.ttf"; sourceTree = "<group>"; };
+		116DB8C587AC472EAAFAB1F7 /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Regular.ttf"; path = "../src/assets/fonts/IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MobileDevAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDevAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MobileDevAssignment/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = MobileDevAssignment/AppDelegate.mm; sourceTree = "<group>"; };
@@ -43,10 +59,22 @@
 		5709B34CF0A7D63546082F79 /* Pods-MobileDevAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDevAssignment.release.xcconfig"; path = "Target Support Files/Pods-MobileDevAssignment/Pods-MobileDevAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MobileDevAssignment-MobileDevAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDevAssignment-MobileDevAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-MobileDevAssignment-MobileDevAssignmentTests/Pods-MobileDevAssignment-MobileDevAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-MobileDevAssignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileDevAssignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D97680BE3D4A89A60D75F8 /* IBMPlexMono-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-BoldItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6EED98F0132A4C74AE6EDF25 /* IBMPlexMono-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-ExtraLightItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		70C1EED9F24F487BA7BA386F /* IBMPlexMono-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-ExtraLight.ttf"; path = "../src/assets/fonts/IBMPlexMono-ExtraLight.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MobileDevAssignment/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8242834E2F254BBE8D2FC33D /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-SemiBold.ttf"; path = "../src/assets/fonts/IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MobileDevAssignment-MobileDevAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDevAssignment-MobileDevAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-MobileDevAssignment-MobileDevAssignmentTests/Pods-MobileDevAssignment-MobileDevAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		972C8A89FFC348D9AFF41E4D /* IBMPlexMono-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-SemiBoldItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		9DBE93AA6D904C639B855CC4 /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Medium.ttf"; path = "../src/assets/fonts/IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
+		A26C7AE1345743948A5E80FE /* IBMPlexMono-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Bold.ttf"; path = "../src/assets/fonts/IBMPlexMono-Bold.ttf"; sourceTree = "<group>"; };
 		A7959E4D91DAE8D4CC2698FC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = MobileDevAssignment/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		CB393668363743CB980EB83B /* IBMPlexMono-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Light.ttf"; path = "../src/assets/fonts/IBMPlexMono-Light.ttf"; sourceTree = "<group>"; };
+		CC712A27C24447878FFEC973 /* IBMPlexMono-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Italic.ttf"; path = "../src/assets/fonts/IBMPlexMono-Italic.ttf"; sourceTree = "<group>"; };
+		D9EF9D45466F4372A5503850 /* IBMPlexMono-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Thin.ttf"; path = "../src/assets/fonts/IBMPlexMono-Thin.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED7984228B244C1192CD702F /* IBMPlexMono-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-ThinItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FC753BFE628A4B13B656D44C /* IBMPlexMono-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-MediumItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-MediumItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +129,28 @@
 			name = MobileDevAssignment;
 			sourceTree = "<group>";
 		};
+		16866F69B6F142EBBFB945B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A26C7AE1345743948A5E80FE /* IBMPlexMono-Bold.ttf */,
+				63D97680BE3D4A89A60D75F8 /* IBMPlexMono-BoldItalic.ttf */,
+				70C1EED9F24F487BA7BA386F /* IBMPlexMono-ExtraLight.ttf */,
+				6EED98F0132A4C74AE6EDF25 /* IBMPlexMono-ExtraLightItalic.ttf */,
+				CC712A27C24447878FFEC973 /* IBMPlexMono-Italic.ttf */,
+				CB393668363743CB980EB83B /* IBMPlexMono-Light.ttf */,
+				072E142B4CEE45A4895AA7BA /* IBMPlexMono-LightItalic.ttf */,
+				9DBE93AA6D904C639B855CC4 /* IBMPlexMono-Medium.ttf */,
+				FC753BFE628A4B13B656D44C /* IBMPlexMono-MediumItalic.ttf */,
+				116DB8C587AC472EAAFAB1F7 /* IBMPlexMono-Regular.ttf */,
+				8242834E2F254BBE8D2FC33D /* IBMPlexMono-SemiBold.ttf */,
+				972C8A89FFC348D9AFF41E4D /* IBMPlexMono-SemiBoldItalic.ttf */,
+				D9EF9D45466F4372A5503850 /* IBMPlexMono-Thin.ttf */,
+				ED7984228B244C1192CD702F /* IBMPlexMono-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +177,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				16866F69B6F142EBBFB945B0 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +300,20 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3FB310C4EBB0BEFAEC86D2D7 /* PrivacyInfo.xcprivacy in Resources */,
+				8FABBBD97C50409BB65E2632 /* IBMPlexMono-Bold.ttf in Resources */,
+				5F7DD2276E1843B78588E2C8 /* IBMPlexMono-BoldItalic.ttf in Resources */,
+				AF1C071B0378423F953B7062 /* IBMPlexMono-ExtraLight.ttf in Resources */,
+				3318146706F041298DB87642 /* IBMPlexMono-ExtraLightItalic.ttf in Resources */,
+				2B66BB4B0CA64EF291447ED6 /* IBMPlexMono-Italic.ttf in Resources */,
+				A0A54CE707114D0BAE4E4E18 /* IBMPlexMono-Light.ttf in Resources */,
+				BAD3C73666A84429BCFFBC35 /* IBMPlexMono-LightItalic.ttf in Resources */,
+				D1282441AB2445FCBC0259A0 /* IBMPlexMono-Medium.ttf in Resources */,
+				FFB05B41E84E4EA68D92BF2D /* IBMPlexMono-MediumItalic.ttf in Resources */,
+				A1E7D660D4164CC680099D9A /* IBMPlexMono-Regular.ttf in Resources */,
+				2D6F25C0F57D4296A747418F /* IBMPlexMono-SemiBold.ttf in Resources */,
+				A6FF38A7498C46AB93103978 /* IBMPlexMono-SemiBoldItalic.ttf in Resources */,
+				212F076C9DAA458B827DEC27 /* IBMPlexMono-Thin.ttf in Resources */,
+				EA72EF93D6DD4699B6F4B969 /* IBMPlexMono-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
