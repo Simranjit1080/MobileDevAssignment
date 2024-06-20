@@ -1,8 +1,9 @@
 import React from 'react';
 import Svg, {Path} from 'react-native-svg';
 import {IconProps} from '@types';
+import {colors} from '@constants';
 
-export const HulaIcon = ({color = '#fff', size = 24}: IconProps) => {
+export const HulaIcon = ({color = colors.white, size = 24}: IconProps) => {
   return (
     <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
       <Path

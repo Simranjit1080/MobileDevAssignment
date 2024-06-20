@@ -4,6 +4,16 @@ import {Dimensions} from 'react-native';
 export const {height: VIEWPORT_HEIGHT, width: VIEWPORT_WIDTH} =
   Dimensions.get('window');
 
+export const colors = {
+  white: '#fff',
+  primary: '#008080',
+  secondary: '#001A1A',
+  light: '#E6F2F2',
+  shadowDark: '#073838',
+  shadowSecondary: '#5151E0',
+  transparent: 'transparent',
+};
+
 export const highlightsData: Array<HighlightsTile> = [
   {
     image: require('@assets/images/surfingBackground.png'),

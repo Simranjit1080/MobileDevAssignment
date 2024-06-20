@@ -1,6 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {FabProps} from '@types';
+import {colors} from '@constants';
 
 const Fab = ({text}: FabProps) => {
   return (
@@ -23,7 +24,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
   },
   buttonContainer: {
-    backgroundColor: '#008080',
+    backgroundColor: colors.primary,
     alignItems: 'center',
     paddingHorizontal: 24,
     paddingVertical: 10,
@@ -32,7 +33,7 @@ const styles = StyleSheet.create({
       width: 0,
       height: 0,
     },
-    shadowColor: '#073838',
+    shadowColor: colors.shadowDark,
     shadowOpacity: 0.8,
     shadowRadius: 8,
     elevation: 8,
@@ -41,6 +42,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 20,
     fontFamily: 'IBMPlexMono-Bold',
-    color: '#fff',
+    color: colors.white,
   },
 });

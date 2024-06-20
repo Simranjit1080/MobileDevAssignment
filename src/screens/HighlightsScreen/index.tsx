@@ -1,7 +1,7 @@
 import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {VIEWPORT_HEIGHT} from '@constants';
+import {VIEWPORT_HEIGHT, colors} from '@constants';
 import {ContactCard, AppHeader, ImageWithText} from '@components';
 import Fab from 'components/Fab';
 import {HighlightsTile} from '@types';
@@ -51,17 +51,17 @@ export const HighlightsScreen = () => {
 
 const styles = StyleSheet.create({
   safeAreaContainer: {
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
     flex: 1,
   },
   scrollContainer: {
     flexGrow: 1,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
   },
   bottomContainer: {
     paddingHorizontal: 16,
     flex: 1,
-    backgroundColor: '#e5f2f2',
+    backgroundColor: colors.light,
     paddingBottom: 80,
   },
   imageBackgroundStyle: {
@@ -86,29 +86,29 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     fontFamily: 'IBMPlexMono-Regular',
-    color: '#001A1A',
+    color: colors.secondary,
   },
   topSpotsText: {
     fontSize: 16,
     lineHeight: 20,
     fontFamily: 'IBMPlexMono-Bold',
-    color: '#001A1A',
+    color: colors.secondary,
     marginBottom: 8,
     marginLeft: 16,
   },
   topSpotContainer: {
     marginTop: 8,
     marginHorizontal: 16,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
     shadowOffset: {
       width: 0,
       height: 0,
     },
 
-    shadowColor: '#008080',
+    shadowColor: colors.primary,
     shadowOpacity: 0.16,
     shadowRadius: 16,
-    elevation: 16,
+    elevation: 8,
     alignItems: 'center',
     justifyContent: 'space-between',
     flexDirection: 'row',
@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     paddingLeft: 16,
   },
   topSpotTitleText: {
-    color: '#008080',
+    color: colors.primary,
     marginVertical: 30,
     fontSize: 16,
     lineHeight: 20,
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 20,
     fontFamily: 'IBMPlexMono-Bold',
-    color: '#001A1A',
+    color: colors.secondary,
     marginBottom: 8,
     marginTop: 40,
   },

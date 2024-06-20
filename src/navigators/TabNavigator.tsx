@@ -6,7 +6,7 @@ import {HomeIcon, HulaIcon, SurfingIcon, VulcanoIcon} from '@assets/icons';
 import {HomeScreen} from '@screens/HomeScreen';
 import {HighlightsScreen} from '@screens/HighlightsScreen';
 import {HighlightsTile} from '@types';
-import {highlightsData} from '@constants';
+import {colors, highlightsData} from '@constants';
 
 export type TabNavigatorParams = {
   Home: undefined;
@@ -31,14 +31,14 @@ export const TabNavigator = () => {
             width: 0,
             height: -4,
           },
-          shadowColor: '#5151E0',
+          shadowColor: colors.shadowSecondary,
           shadowOpacity: 0.24,
           shadowRadius: 16,
-          elevation: 16,
+          elevation: 8,
         },
         tabBarLabelStyle: styles.tabLabel,
-        tabBarActiveTintColor: '#008080',
-        tabBarInactiveTintColor: '#001A1A',
+        tabBarActiveTintColor: colors.primary,
+        tabBarInactiveTintColor: colors.secondary,
       }}>
       <Tab.Screen
         name="Home"
@@ -48,7 +48,7 @@ export const TabNavigator = () => {
             paddingVertical: 16,
             paddingBottom: navigation.isFocused() ? 12 : 16,
             borderBottomWidth: navigation.isFocused() ? 4 : 0,
-            borderColor: '#008080',
+            borderColor: colors.primary,
           },
           tabBarIcon: ({color}) => <HomeIcon color={color} />,
         })}
@@ -62,7 +62,7 @@ export const TabNavigator = () => {
             paddingVertical: 16,
             paddingBottom: navigation.isFocused() ? 12 : 16,
             borderBottomWidth: navigation.isFocused() ? 4 : 0,
-            borderColor: '#008080',
+            borderColor: colors.primary,
           },
           tabBarIcon: ({color}) => <SurfingIcon color={color} />,
         })}
@@ -76,7 +76,7 @@ export const TabNavigator = () => {
             paddingVertical: 16,
             paddingBottom: navigation.isFocused() ? 12 : 16,
             borderBottomWidth: navigation.isFocused() ? 4 : 0,
-            borderColor: '#008080',
+            borderColor: colors.primary,
           },
           tabBarIcon: ({color}) => <HulaIcon color={color} />,
         })}
@@ -90,7 +90,7 @@ export const TabNavigator = () => {
             paddingVertical: 16,
             paddingBottom: navigation.isFocused() ? 12 : 16,
             borderBottomWidth: navigation.isFocused() ? 4 : 0,
-            borderColor: '#008080',
+            borderColor: colors.primary,
           },
           tabBarIcon: ({color}) => <VulcanoIcon color={color} />,
         })}

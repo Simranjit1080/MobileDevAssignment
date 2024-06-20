@@ -1,8 +1,9 @@
+import {colors} from '@constants';
 import {IconProps} from '@types';
 import React from 'react';
 import Svg, {Path} from 'react-native-svg';
 
-export const HomeIcon = ({color = '#fff', size = 24}: IconProps) => {
+export const HomeIcon = ({color = colors.white, size = 24}: IconProps) => {
   return (
     <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
       <Path

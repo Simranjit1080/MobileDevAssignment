@@ -2,6 +2,7 @@ import {StyleSheet, View} from 'react-native';
 import React from 'react';
 import {AlohaIcon} from '@assets/icons';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
+import {colors} from '@constants';
 
 export const AppHeader = () => {
   const {top} = useSafeAreaInsets();
@@ -15,7 +16,7 @@ export const AppHeader = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
     width: '100%',
     paddingBottom: 24,
     alignItems: 'center',

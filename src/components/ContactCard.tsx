@@ -1,3 +1,4 @@
+import {colors} from '@constants';
 import React from 'react';
 import {View, Text, Pressable, Image, StyleSheet} from 'react-native';
 
@@ -27,18 +28,18 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 20,
     fontFamily: 'IBMPlexMono-Regular',
-    color: '#001A1A',
+    color: colors.secondary,
   },
   contactCard: {
     padding: 24,
     borderRadius: 8,
     marginTop: 8,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
   },
   contactTitle: {
     fontSize: 24,
     fontFamily: 'IBMPlexMono-Bold',
-    color: '#001A1A',
+    color: colors.secondary,
     marginBottom: 16,
   },
   contactDetailsContainer: {
@@ -54,7 +55,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 8,
     alignSelf: 'flex-start',
-    borderColor: '#008080',
+    borderColor: colors.primary,
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: 24,
@@ -65,6 +66,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 20,
     fontFamily: 'IBMPlexMono-Bold',
-    color: '#008080',
+    color: colors.primary,
   },
 });

@@ -14,6 +14,7 @@ import {
   VIEWPORT_HEIGHT,
   VIEWPORT_WIDTH,
   categoriesData,
+  colors,
   highlightsData,
 } from '@constants';
 import {ArrowIcon} from '@assets/icons';
@@ -52,7 +53,7 @@ export const HomeScreen = () => {
     <SafeAreaView edges={[]} style={styles.safeAreaContainer}>
       <StatusBar
         translucent
-        backgroundColor="transparent"
+        backgroundColor={colors.transparent}
         barStyle="dark-content"
       />
       <ScrollView
@@ -102,17 +103,17 @@ export const HomeScreen = () => {
 
 const styles = StyleSheet.create({
   safeAreaContainer: {
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
     flex: 1,
   },
   scrollContainer: {
     flexGrow: 1,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
   },
   bottomContainer: {
     paddingHorizontal: 16,
     flex: 1,
-    backgroundColor: '#e5f2f2',
+    backgroundColor: colors.light,
     paddingBottom: 80,
   },
   imageBackgroundStyle: {
@@ -129,13 +130,13 @@ const styles = StyleSheet.create({
   },
   carouselContainer: {
     paddingTop: 40,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
   },
   highlightsText: {
     fontSize: 16,
     lineHeight: 20,
     fontFamily: 'IBMPlexMono-Bold',
-    color: '#001A1A',
+    color: colors.secondary,
     marginBottom: 8,
     marginLeft: 16,
   },
@@ -143,7 +144,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 20,
     fontFamily: 'IBMPlexMono-Bold',
-    color: '#001A1A',
+    color: colors.secondary,
     marginBottom: 8,
     marginTop: 40,
   },
@@ -151,7 +152,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
   },
   tilesSeparator: {
-    backgroundColor: 'transparent',
+    backgroundColor: colors.transparent,
     width: 16,
   },
   categorySection: {
@@ -161,13 +162,13 @@ const styles = StyleSheet.create({
     marginTop: 8,
     borderRadius: 8,
     padding: 24,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
   },
   categoryText: {
     marginRight: 8,
     fontSize: 16,
     lineHeight: 20,
     fontFamily: 'IBMPlexMono-Regular',
-    color: '#001A1A',
+    color: colors.secondary,
   },
 });

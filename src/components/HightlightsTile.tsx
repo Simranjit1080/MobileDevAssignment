@@ -1,6 +1,6 @@
 import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {VIEWPORT_WIDTH} from '@constants';
+import {VIEWPORT_WIDTH, colors} from '@constants';
 import {ArrowIcon} from '@assets/icons';
 import {HighlightsTileProps} from '@types';
 
@@ -24,7 +24,7 @@ export const HightlightsTile = ({item, onPress}: HighlightsTileProps) => {
 const styles = StyleSheet.create({
   container: {
     width: VIEWPORT_WIDTH - 64,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
     borderRadius: 8,
     height: 384,
     marginTop: 20,
@@ -33,10 +33,10 @@ const styles = StyleSheet.create({
       width: 0,
       height: 0,
     },
-    shadowColor: '#008080',
+    shadowColor: colors.primary,
     shadowOpacity: 0.16,
     shadowRadius: 16,
-    elevation: 16,
+    elevation: 8,
   },
   imageStyle: {
     width: '100%',
@@ -51,13 +51,13 @@ const styles = StyleSheet.create({
     padding: 24,
   },
   title: {
-    color: '#008080',
+    color: colors.primary,
     fontSize: 24,
     marginBottom: 20,
     fontFamily: 'IBMPlexMono-Bold',
   },
   subTitle: {
-    color: '#001A1A',
+    color: colors.secondary,
     fontSize: 16,
     fontFamily: 'IBMPlexMono-Regular',
   },
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     right: 24,
-    backgroundColor: '#E6F2F2',
+    backgroundColor: colors.light,
     borderRadius: 20,
   },
 });

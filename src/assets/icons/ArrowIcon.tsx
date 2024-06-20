@@ -1,8 +1,9 @@
+import {colors} from '@constants';
 import {IconProps} from '@types';
 import React from 'react';
 import Svg, {Path} from 'react-native-svg';
 
-export const ArrowIcon = ({color = '#fff', size = 16}: IconProps) => {
+export const ArrowIcon = ({color = colors.white, size = 16}: IconProps) => {
   return (
     <Svg width={size} height={size} viewBox="0 0 16 16" fill="none">
       <Path
