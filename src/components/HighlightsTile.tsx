@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     shadowColor: colors.primary,
     shadowOpacity: 0.16,
     shadowRadius: 16,
-    elevation: 8,
+    elevation: 16,
   },
   imageStyle: {
     width: '100%',

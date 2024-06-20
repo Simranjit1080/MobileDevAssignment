@@ -18,13 +18,18 @@ export type ImageWithTextProps = {
   imageSource: ImageSourcePropType;
 };
 
+export type TopSpotType = {
+  title: string;
+  image: ImageSourcePropType;
+};
+
 export type HighlightsTileType = {
   image: ImageSourcePropType;
   title: string;
   navScreen: keyof Omit<TabNavigatorParams, 'Home'>;
   subTitle: string;
   details: string;
-  topSpots: Array<string>;
+  topSpots: Array<TopSpotType>;
 };
 
 export type HighlightsTileProps = {

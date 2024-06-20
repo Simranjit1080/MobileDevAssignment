@@ -1,4 +1,4 @@
-import {ScrollView, StyleSheet, Text, View} from 'react-native';
+import {Image, ScrollView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {VIEWPORT_HEIGHT, colors} from '@constants';
 import {ContactCard, AppHeader, ImageWithText} from '@components';
@@ -31,10 +31,11 @@ export const HighlightsScreen = () => {
           <Text style={styles.detailsText}>{details}</Text>
           <Text style={styles.topSpotsText}>Top spots</Text>
           {topSpots.map((item, index) => (
-            <View key={item} style={styles.topSpotContainer}>
+            <View key={item.title} style={styles.topSpotContainer}>
               <Text style={styles.topSpotTitleText}>
-                {index + 1}. {item}
+                {index + 1}. {item.title}
               </Text>
+              <Image source={item.image} style={styles.topSpotImage} />
             </View>
           ))}
         </View>
@@ -95,6 +96,12 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     marginLeft: 16,
   },
+  topSpotImage: {
+    height: '100%',
+    width: '40%',
+    borderTopRightRadius: 4,
+    borderBottomRightRadius: 4,
+  },
   topSpotContainer: {
     marginTop: 8,
     marginHorizontal: 16,
@@ -107,7 +114,7 @@ const styles = StyleSheet.create({
     shadowColor: colors.primary,
     shadowOpacity: 0.16,
     shadowRadius: 16,
-    elevation: 8,
+    elevation: 16,
     alignItems: 'center',
     justifyContent: 'space-between',
     flexDirection: 'row',

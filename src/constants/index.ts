@@ -22,7 +22,11 @@ export const highlightsData: Array<HighlightsTileType> = [
     subTitle: 'Best Hawaiian Islands for surfing.',
     details:
       'Hawaii is the capital of modern surfing. This group of Pacific islands gets swell from all directions, so there are plenty of pristine surf spots for all.',
-    topSpots: ['Maui', 'Kauai', 'Honolulu'],
+    topSpots: [
+      {title: 'Maui', image: require('@assets/images/maui.png')},
+      {title: 'Kauai', image: require('@assets/images/kauai.png')},
+      {title: 'Honolulu', image: require('@assets/images/honolulu.png')},
+    ],
   },
   {
     image: require('@assets/images/hulaBackground.png'),
@@ -32,7 +36,11 @@ export const highlightsData: Array<HighlightsTileType> = [
     subTitle: 'Try it yourself.',
     details:
       "Hula is a traditional Hawaiian dance that is deeply rooted in the islands' history and culture. It is a powerful form of storytelling through movement, often accompanied by chant (oli) or song (mele).",
-    topSpots: ['Oahu', 'Maui', 'Big Island'],
+    topSpots: [
+      {title: 'Kauai', image: require('@assets/images/kauai.png')},
+      {title: 'Honolulu', image: require('@assets/images/honolulu.png')},
+      {title: 'Maui', image: require('@assets/images/maui.png')},
+    ],
   },
   {
     image: require('@assets/images/vulcanoBackground.png'),
@@ -41,7 +49,11 @@ export const highlightsData: Array<HighlightsTileType> = [
     subTitle: 'Volcanic conditions can change at any time.',
     details:
       "Hawaii is home to some of the world's most active and accessible volcanoes. These natural wonders offer breathtaking views and unique geological experiences.",
-    topSpots: ['Big Island (Hawaii Island)', 'Maui', 'Oahu'],
+    topSpots: [
+      {title: 'Honolulu', image: require('@assets/images/honolulu.png')},
+      {title: 'Maui', image: require('@assets/images/maui.png')},
+      {title: 'Kauai', image: require('@assets/images/kauai.png')},
+    ],
   },
 ];
 
