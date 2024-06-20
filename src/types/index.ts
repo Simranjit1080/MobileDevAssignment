@@ -21,7 +21,7 @@ export type ImageWithTextProps = {
 export type HighlightsTile = {
   image: ImageSourcePropType;
   title: string;
-  navScreen: keyof TabNavigatorParams;
+  navScreen: keyof Omit<TabNavigatorParams, 'Home'>;
   subTitle: string;
   details: string;
   topSpots: Array<string>;

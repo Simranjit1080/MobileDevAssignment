@@ -54,13 +54,11 @@ const styles = StyleSheet.create({
     color: '#008080',
     fontSize: 24,
     marginBottom: 20,
-    fontWeight: '700',
-    fontFamily: 'IBMPlexMono-Regular',
+    fontFamily: 'IBMPlexMono-Bold',
   },
   subTitle: {
     color: '#001A1A',
     fontSize: 16,
-    fontWeight: '400',
     fontFamily: 'IBMPlexMono-Regular',
   },
   arrowContainer: {

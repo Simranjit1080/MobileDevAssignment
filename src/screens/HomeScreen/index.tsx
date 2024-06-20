@@ -3,6 +3,7 @@ import {
   ListRenderItem,
   Pressable,
   ScrollView,
+  StatusBar,
   StyleSheet,
   Text,
   View,
@@ -38,14 +39,22 @@ export const HomeScreen = () => {
       <HightlightsTile
         item={item}
         onPress={() => {
-          navigate(item.navScreen);
+          navigate({
+            name: item.navScreen,
+            params: item,
+          });
         }}
       />
     ),
     [navigate],
   );
   return (
-    <SafeAreaView edges={['top']} style={styles.safeAreaContainer}>
+    <SafeAreaView edges={[]} style={styles.safeAreaContainer}>
+      <StatusBar
+        translucent
+        backgroundColor="transparent"
+        barStyle="dark-content"
+      />
       <ScrollView
         nestedScrollEnabled
         contentContainerStyle={styles.scrollContainer}
@@ -114,8 +123,7 @@ const styles = StyleSheet.create({
   },
   gradientTextStyle: {
     fontSize: 56,
-    fontFamily: 'IBMPlexMono-Regular',
-    fontWeight: '700',
+    fontFamily: 'IBMPlexMono-Bold',
     textAlign: 'center',
     lineHeight: 56,
   },
@@ -126,8 +134,7 @@ const styles = StyleSheet.create({
   highlightsText: {
     fontSize: 16,
     lineHeight: 20,
-    fontFamily: 'IBMPlexMono-Regular',
-    fontWeight: '700',
+    fontFamily: 'IBMPlexMono-Bold',
     color: '#001A1A',
     marginBottom: 8,
     marginLeft: 16,
@@ -135,8 +142,7 @@ const styles = StyleSheet.create({
   bottomSectionTitleText: {
     fontSize: 16,
     lineHeight: 20,
-    fontFamily: 'IBMPlexMono-Regular',
-    fontWeight: '700',
+    fontFamily: 'IBMPlexMono-Bold',
     color: '#001A1A',
     marginBottom: 8,
     marginTop: 40,
@@ -162,7 +168,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 20,
     fontFamily: 'IBMPlexMono-Regular',
-    fontWeight: '400',
     color: '#001A1A',
   },
 });

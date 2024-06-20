@@ -27,7 +27,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 20,
     fontFamily: 'IBMPlexMono-Regular',
-    fontWeight: '400',
     color: '#001A1A',
   },
   contactCard: {
@@ -38,8 +37,7 @@ const styles = StyleSheet.create({
   },
   contactTitle: {
     fontSize: 24,
-    fontFamily: 'IBMPlexMono-Regular',
-    fontWeight: '700',
+    fontFamily: 'IBMPlexMono-Bold',
     color: '#001A1A',
     marginBottom: 16,
   },
@@ -66,8 +64,7 @@ const styles = StyleSheet.create({
   contactButtonText: {
     fontSize: 16,
     lineHeight: 20,
-    fontFamily: 'IBMPlexMono-Regular',
-    fontWeight: '700',
+    fontFamily: 'IBMPlexMono-Bold',
     color: '#008080',
   },
 });

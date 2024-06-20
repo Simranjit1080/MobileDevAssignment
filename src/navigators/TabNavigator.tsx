@@ -4,15 +4,15 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {HomeIcon, HulaIcon, SurfingIcon, VulcanoIcon} from '@assets/icons';
 import {HomeScreen} from '@screens/HomeScreen';
-import {SurfingScreen} from '@screens/SurfingScreen';
-import {HulaScreen} from '@screens/HulaScreen';
-import {VulcanoScreen} from '@screens/VulcanoScreen';
+import {HighlightsScreen} from '@screens/HighlightsScreen';
+import {HighlightsTile} from '@types';
+import {highlightsData} from '@constants';
 
 export type TabNavigatorParams = {
   Home: undefined;
-  Surfing: undefined;
-  Hula: undefined;
-  Vulcano: undefined;
+  Surfing: HighlightsTile;
+  Hula: HighlightsTile;
+  Vulcano: HighlightsTile;
 };
 
 const Tab = createBottomTabNavigator<TabNavigatorParams>();
@@ -55,7 +55,8 @@ export const TabNavigator = () => {
       />
       <Tab.Screen
         name="Surfing"
-        component={SurfingScreen}
+        component={HighlightsScreen}
+        initialParams={highlightsData[0]}
         options={({navigation}) => ({
           tabBarItemStyle: {
             paddingVertical: 16,
@@ -68,7 +69,8 @@ export const TabNavigator = () => {
       />
       <Tab.Screen
         name="Hula"
-        component={HulaScreen}
+        component={HighlightsScreen}
+        initialParams={highlightsData[1]}
         options={({navigation}) => ({
           tabBarItemStyle: {
             paddingVertical: 16,
@@ -81,7 +83,8 @@ export const TabNavigator = () => {
       />
       <Tab.Screen
         name="Vulcano"
-        component={VulcanoScreen}
+        component={HighlightsScreen}
+        initialParams={highlightsData[2]}
         options={({navigation}) => ({
           tabBarItemStyle: {
             paddingVertical: 16,
@@ -100,7 +103,6 @@ const styles = StyleSheet.create({
   tabLabel: {
     fontSize: 10,
     lineHeight: 16,
-    fontFamily: 'IBMPlexMono-Regular',
-    fontWeight: '700',
+    fontFamily: 'IBMPlexMono-Bold',
   },
 });

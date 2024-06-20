@@ -40,8 +40,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 16,
     lineHeight: 20,
-    fontFamily: 'IBMPlexMono-Regular',
-    fontWeight: '700',
+    fontFamily: 'IBMPlexMono-Bold',
     color: '#fff',
   },
 });
