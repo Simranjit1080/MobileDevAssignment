@@ -34,7 +34,7 @@ export const TabNavigator = () => {
           shadowColor: '#5151E0',
           shadowOpacity: 0.24,
           shadowRadius: 16,
-          elevation: 24,
+          elevation: 16,
         },
         tabBarLabelStyle: styles.tabLabel,
         tabBarActiveTintColor: '#008080',
