@@ -9,7 +9,6 @@ import {
   View,
 } from 'react-native';
 import React, {useCallback} from 'react';
-import {SafeAreaView} from 'react-native-safe-area-context';
 import {
   VIEWPORT_HEIGHT,
   VIEWPORT_WIDTH,
@@ -50,7 +49,7 @@ export const HomeScreen = () => {
     [navigate],
   );
   return (
-    <SafeAreaView edges={[]} style={styles.safeAreaContainer}>
+    <View style={styles.container}>
       <StatusBar
         translucent
         backgroundColor={colors.transparent}
@@ -97,12 +96,12 @@ export const HomeScreen = () => {
         </View>
       </ScrollView>
       <Fab text="Book a trip" />
-    </SafeAreaView>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
-  safeAreaContainer: {
+  container: {
     backgroundColor: colors.white,
     flex: 1,
   },

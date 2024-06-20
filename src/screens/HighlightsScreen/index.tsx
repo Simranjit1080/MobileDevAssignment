@@ -1,6 +1,5 @@
 import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {SafeAreaView} from 'react-native-safe-area-context';
 import {VIEWPORT_HEIGHT, colors} from '@constants';
 import {ContactCard, AppHeader, ImageWithText} from '@components';
 import Fab from 'components/Fab';
@@ -16,7 +15,7 @@ export const HighlightsScreen = () => {
   const {details, image, topSpots, title} = params;
 
   return (
-    <SafeAreaView edges={[]} style={styles.safeAreaContainer}>
+    <View style={styles.container}>
       <ScrollView
         nestedScrollEnabled
         contentContainerStyle={styles.scrollContainer}
@@ -45,12 +44,12 @@ export const HighlightsScreen = () => {
         </View>
       </ScrollView>
       <Fab text="Book a trip" />
-    </SafeAreaView>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
-  safeAreaContainer: {
+  container: {
     backgroundColor: colors.white,
     flex: 1,
   },
