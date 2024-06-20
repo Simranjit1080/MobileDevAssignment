@@ -4,7 +4,7 @@ import {VIEWPORT_WIDTH, colors} from '@constants';
 import {ArrowIcon} from '@assets/icons';
 import {HighlightsTileProps} from '@types';
 
-export const HightlightsTile = ({item, onPress}: HighlightsTileProps) => {
+export const HighlightsTile = ({item, onPress}: HighlightsTileProps) => {
   return (
     <Pressable style={styles.container} onPress={onPress}>
       <Image source={item.image} style={styles.imageStyle} resizeMode="cover" />

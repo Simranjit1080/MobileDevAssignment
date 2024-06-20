@@ -4,11 +4,11 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import {VIEWPORT_HEIGHT, colors} from '@constants';
 import {ContactCard, AppHeader, ImageWithText} from '@components';
 import Fab from 'components/Fab';
-import {HighlightsTile} from '@types';
+import {HighlightsTileType} from '@types';
 import {RouteProp, useRoute} from '@react-navigation/native';
 
 export type HighlightsScreenParams = {
-  details: HighlightsTile;
+  details: HighlightsTileType;
 };
 
 export const HighlightsScreen = () => {

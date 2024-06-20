@@ -20,11 +20,11 @@ import {
 import {ArrowIcon} from '@assets/icons';
 import {
   ContactCard,
-  HightlightsTile,
+  HighlightsTile,
   AppHeader,
   ImageWithText,
 } from '@components';
-import {HighlightsTile} from '@types';
+import {HighlightsTileType} from '@types';
 import {useNavigation} from '@react-navigation/native';
 import Fab from 'components/Fab';
 
@@ -35,9 +35,9 @@ const HighlightsTilesSeparator = () => <View style={styles.tilesSeparator} />;
 export const HomeScreen = () => {
   const {navigate} = useNavigation();
 
-  const renderHighlightsTile: ListRenderItem<HighlightsTile> = useCallback(
+  const renderHighlightsTile: ListRenderItem<HighlightsTileType> = useCallback(
     ({item}) => (
-      <HightlightsTile
+      <HighlightsTile
         item={item}
         onPress={() => {
           navigate({

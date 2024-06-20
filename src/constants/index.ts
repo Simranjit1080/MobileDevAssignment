@@ -1,4 +1,4 @@
-import {HighlightsTile} from '@types';
+import {HighlightsTileType} from '@types';
 import {Dimensions} from 'react-native';
 
 export const {height: VIEWPORT_HEIGHT, width: VIEWPORT_WIDTH} =
@@ -14,7 +14,7 @@ export const colors = {
   transparent: 'transparent',
 };
 
-export const highlightsData: Array<HighlightsTile> = [
+export const highlightsData: Array<HighlightsTileType> = [
   {
     image: require('@assets/images/surfingBackground.png'),
     title: 'Surfing',

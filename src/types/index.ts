@@ -18,7 +18,7 @@ export type ImageWithTextProps = {
   imageSource: ImageSourcePropType;
 };
 
-export type HighlightsTile = {
+export type HighlightsTileType = {
   image: ImageSourcePropType;
   title: string;
   navScreen: keyof Omit<TabNavigatorParams, 'Home'>;
@@ -28,7 +28,7 @@ export type HighlightsTile = {
 };
 
 export type HighlightsTileProps = {
-  item: HighlightsTile;
+  item: HighlightsTileType;
   onPress: () => void;
 };
 

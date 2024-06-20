@@ -5,14 +5,14 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {HomeIcon, HulaIcon, SurfingIcon, VulcanoIcon} from '@assets/icons';
 import {HomeScreen} from '@screens/HomeScreen';
 import {HighlightsScreen} from '@screens/HighlightsScreen';
-import {HighlightsTile} from '@types';
+import {HighlightsTileType} from '@types';
 import {colors, highlightsData} from '@constants';
 
 export type TabNavigatorParams = {
   Home: undefined;
-  Surfing: HighlightsTile;
-  Hula: HighlightsTile;
-  Vulcano: HighlightsTile;
+  Surfing: HighlightsTileType;
+  Hula: HighlightsTileType;
+  Vulcano: HighlightsTileType;
 };
 
 const Tab = createBottomTabNavigator<TabNavigatorParams>();
